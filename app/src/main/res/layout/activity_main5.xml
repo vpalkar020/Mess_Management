@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+            <EditText
+                android:id="@+id/delNoidid"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginTop="100dp"
+                android:ems="10"
+                android:hint="ID"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="40dp" />
+
+            <EditText
+                android:id="@+id/delNameid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="phone"
+                android:textAlignment="center"
+                android:textSize="40dp" />
+
+            <Button
+                android:id="@+id/delmemid"
+                android:layout_width="395dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="100dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/chkmemid"
+                android:layout_width="398dp"
+                android:layout_height="84dp"
+                android:layout_marginTop="100dp"
+                android:text="check Phono" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
